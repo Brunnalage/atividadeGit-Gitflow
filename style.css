@@ -3,12 +3,14 @@ body{
 }
 h1{
     text-align: left;
-    color: #747474;    
+    color: #747474;   
+    margin-left: 1em; 
 }
 
 h3{
     text-align: left;
     color: #D5C4AE;
+    margin-left: 2em; 
 }
 
 li{
