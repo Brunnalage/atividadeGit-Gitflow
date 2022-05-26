@@ -1,9 +1,14 @@
 h1{
     text-align: left;
-    color: #747474;
+    color: #747474;    
 }
 
 h3{
     text-align: left;
     color: #D5C4AE;
+}
+
+li{
+    color:#9C9C91;
+    font-weight: bolder;
 }
