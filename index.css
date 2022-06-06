@@ -1,0 +1,72 @@
+body, h1, h2, p, ul, li, a{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #D9C6BA;
+    font-family: 'Fredoka', sans-serif;       
+}
+
+.container
+{
+    background: #ffffff;
+    width:56.25em;
+    margin:0 auto;
+    height: auto;
+    box-shadow: 3px 5px 10px #BFBFBF;
+    box-shadow: -3px 5px 10px #BFBFBF;
+    padding: 2em;
+    display: grid; 
+    grid-template-areas: header, main;
+    grid-template-columns: auto;
+    grid-template-rows: 10% 90%;
+}
+
+.cabecalho{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    padding: 2.5em;
+    margin-bottom: 2em;    
+}
+
+.titulo{    
+    color:#A6836F;
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+}
+
+.subtitulo{
+    color: #7d7d7d;
+    font-weight:normal;
+}
+
+.lista{
+    display: grid;
+    grid-template-columns: 50% 50%;    
+    flex-wrap: wrap;
+    padding: 1em;  
+    justify-items: stretch;   
+}
+
+li{
+    display: grid;
+    grid-template-rows: 8% 92%;
+    color:#A6836F;
+    font-size: 1.25em;
+    font-weight: normal; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    margin-bottom: 1em;      
+    
+}
+.capas{
+    padding: 1em;
+    float: left;
+    width:  300px;
+    height: 400px;
+    object-fit: cover;
+    align-self: center;
+}
